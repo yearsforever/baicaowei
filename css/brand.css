@@ -1,0 +1,18 @@
+section .main {
+  width: 100%;
+  height: 8527px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ededed;
+}
+section .main div {
+  position: absolute;
+  left: 50%;
+  width: 1920px;
+  margin-left: -960px;
+}
+section .main div img {
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+}

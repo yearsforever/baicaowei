@@ -1,0 +1,236 @@
+.swiper-container {
+  width: 100%;
+  height: 439px;
+}
+.swiper-container img {
+  width: 100%;
+}
+.main .main_box {
+  padding: 0 15%;
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+.main .main_box .main_top li {
+  width: 33.33%;
+  float: left;
+  padding-right: 18px;
+  box-sizing: border-box;
+}
+.main .main_box .main_top li .box {
+  height: 223px;
+  position: relative;
+  overflow: hidden;
+}
+.main .main_box .main_top li .box > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main .main_box .main_top li .box .img {
+  transition: all .5s linear;
+}
+.main .main_box .main_top li .box .img > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main .main_box .main_top li .box .img img {
+  position: absolute;
+  width: 110%;
+  max-width: 110%;
+}
+.main .main_box .main_top li .box .word {
+  transition: all .5s linear;
+}
+.main .main_box .main_top li .box .word .law {
+  padding: 25px 0 0 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.main .main_box .main_top li .box .word .law h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #1b1b1b;
+  font-weight: 700;
+}
+.main .main_box .main_top li .box .word .law p {
+  font-size: 18px;
+  color: #1b1b1b;
+}
+.main .main_box .main_top li .box .word .law .p_last {
+  opacity: 0;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: all .5s linear;
+}
+.main .main_box .main_top li .box_hover .img {
+  margin-left: -5%;
+}
+.main .main_box .main_top li .box_hover .word .p_last {
+  margin-top: 10px;
+  transform: translateY(-50%);
+  opacity: 1 !important;
+}
+.main .main_box .main_bar img {
+  width: 100%;
+}
+.main .photo_wall {
+  margin-bottom: 18px;
+}
+.main .photo_wall > div {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+}
+.main .photo_wall > div img {
+  vertical-align: middle;
+  height: auto;
+  width: 640px;
+}
+.main .custom {
+  border-bottom: 1px solid #d6d6d6;
+}
+.main .custom div {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.main .custom div h2 {
+  width: 50%;
+  margin: 0 auto 20px;
+  font-size: 22px;
+  border: 1px solid #888;
+  color: #888;
+}
+.main .custom div p {
+  color: #888;
+  margin-bottom: 0;
+}
+.main .bottom {
+  width: 60%;
+  margin: 0 auto;
+  min-width: 1000px;
+}
+.main .bottom .server {
+  padding: 20px 0 30px;
+  border-bottom: 1px solid #d6d6d6;
+  overflow: hidden;
+}
+.main .bottom .server li {
+  width: 25%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 58px;
+}
+.main .bottom .server li i {
+  font-size: 58px;
+  position: absolute;
+  left: 0;
+  color: saddlebrown;
+}
+.main .bottom .server li h3 {
+  color: #666;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.main .bottom .server li p {
+  color: #b4b4b4;
+}
+.main .bottom .shop {
+  overflow: hidden;
+}
+.main .bottom .shop ul {
+  padding: 40px 5px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+.main .bottom .shop ul li {
+  float: left;
+  margin-right: 80px;
+}
+.main .bottom .shop ul li dl {
+  margin-bottom: 0;
+}
+.main .bottom .shop ul li dl dt {
+  font-size: 18px;
+  color: #666;
+}
+.main .bottom .shop ul li dl dd a {
+  color: #7a7a7a;
+  font-size: 16px;
+}
+.main .bottom .shop ul::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 1px;
+  height: 200px;
+  background-color: #d6d6d6;
+  transform: translateY(-50%);
+}
+.main .bottom .shop .focus {
+  padding: 40px 5px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  width: 200px;
+  text-align: center;
+}
+.main .bottom .shop .focus > div {
+  display: inline-block;
+  width: 95px;
+  height: 70px;
+  float: left;
+  box-sizing: border-box;
+}
+.main .bottom .shop .focus h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+  padding-bottom: 8px;
+}
+.main .bottom .shop .focus .weibo {
+  background: url('../images/index/weibo.png') center right no-repeat;
+  padding-left: 20%;
+}
+.main .bottom .shop .focus .weixin {
+  background: url('../images/index/weixin.png') center left no-repeat;
+  padding-right: 20%;
+}
+.main .bottom .shop .app {
+  padding: 40px 5px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  width: 200px;
+  text-align: center;
+}
+.main .bottom .shop .app h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+.main .bottom .shop .app div {
+  background: url('../images/index/erweima.png') 0 0 no-repeat;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+}
+.main .bottom .shop .app p {
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 0;
+}

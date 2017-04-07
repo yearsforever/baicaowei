@@ -1,0 +1,176 @@
+*{
+margin:0;
+padding:0;
+color:#999;
+}
+body{
+font-family:"Microsoft YaHei", "Microsoft JhengHei", STHeiti, MingLiu, serif;
+}
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+li{
+list-style:none;
+}
+fieldset,
+img{
+border:0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{
+display:block;
+}
+q:before,
+q:after{
+content:'';
+}
+a:focus,
+input,
+textarea{
+outline-style:none;
+}
+input[type="text"],
+input[type="password"],
+textarea{
+outline-style:none;
+-webkit-appearance:none;
+}
+textarea{
+resize:none;
+}
+img{
+vertical-align:middle;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+i,
+th,
+var{
+font-style:normal;
+font-weight:normal;
+}
+legend{
+color:#000;
+}
+abbr,
+acronym{
+border:0;
+font-variant:normal;
+}
+a{
+color:#0a8cd2;
+text-decoration:none;
+}
+a:hover{
+text-decoration:none;
+}
+.clearfix:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.clearfix{
+display:inline-block;
+}
+.clearfix{
+display:block;
+}
+.clear{
+clear:both;
+height:0;
+font:0/0 Arial;
+visibility:hidden;
+}
+.none{
+display:none;
+}
+header{
+width:1000px;
+margin:0 auto;
+display:flex;
+justify-content:space-between;
+}
+header .logo{
+line-height:100px;
+}
+header .logo img{
+vertical-align:middle;
+}
+header ul{
+padding-top:38px;
+}
+header ul li{
+float:left;
+text-align:center;
+margin:0 8px;
+height:62px;
+}
+header ul li:nth-of-type(1) a{
+width:150px;
+}
+header ul li a{
+font-size:16px;
+color:#333;
+width:110px;
+display:inline-block;
+font-weight:500;
+height:22px;
+line-height:22px;
+}
+/*header ul li a:hover{*/
+/*color:#000;*/
+/*}*/
+header ul li .color{
+color:#d23927;
+}
+header ul li p{
+font-size:12px;
+height:22px;
+line-height:22px;
+}
+header ul li .color{
+color:#d23927;
+}
+footer{
+margin:30px 0;
+text-align:center;
+padding-top:20px;
+}
+footer ul{
+width:479px;
+margin:0 auto;
+height:25px;
+}
+footer ul li{
+float:left;
+margin:0 12px;
+}
+footer ul li a{
+font-size:14px;
+color:#000;
+}
+footer ul li a:hover{
+color:#000;
+}
+footer p{
+font-size:12px;
+color:#535353;
+height:21px;
+line-height:21px;
+}

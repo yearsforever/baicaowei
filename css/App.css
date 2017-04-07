@@ -1,0 +1,133 @@
+#nav {
+  background-color: #ff3c5a;
+}
+#nav .nav {
+  width: 1000px;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+}
+#nav .nav .phone-box {
+  position: absolute;
+  top: 30px;
+  left: 110px;
+}
+#nav .nav .phone-box .phone-slide {
+  background: url("../images/App/phone_bg.png") no-repeat;
+  width: 255px;
+  height: 530px;
+  padding: 65px 16px;
+  overflow: hidden;
+}
+#nav .nav .phone-box .phone-slide #mynav {
+  width: 223px;
+  display: inline-block;
+}
+#nav .nav .phone-box .phone-slide #mynav .carousel-inner .item img {
+  width: 223px;
+  height: 397px;
+}
+#nav .nav .info {
+  background: url("../images/App/banner_bg.jpg") top center no-repeat;
+  width: 630px;
+  height: 425px;
+  float: right;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+#nav .nav .info p {
+  color: white;
+  padding-left: 30px;
+}
+#nav .nav .info p:nth-of-type(1) {
+  height: 43px;
+  line-height: 43px;
+}
+#nav .nav .info p:nth-of-type(2) {
+  height: 81px;
+  line-height: 81px;
+}
+#nav .nav .info p:nth-of-type(3) {
+  height: 25px;
+  line-height: 25px;
+}
+#box {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0 20px;
+}
+#box .clearfix {
+  display: flex;
+  text-align: center;
+}
+#box .clearfix li {
+  flex: 1;
+}
+#box .clearfix li p {
+  font-size: 16px;
+  height: 28px;
+  line-height: 28px;
+}
+#main .tips1,
+#main .tips2,
+#main .tips3 {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+#main .tips1 img,
+#main .tips2 img,
+#main .tips3 img {
+  width: 100%;
+  vertical-align: bottom;
+}
+#main .tips1 ul,
+#main .tips2 ul,
+#main .tips3 ul {
+  margin: 0;
+}
+#main .tips1 ul li,
+#main .tips2 ul li,
+#main .tips3 ul li {
+  position: relative;
+}
+#main .tips1 ul li div,
+#main .tips2 ul li div,
+#main .tips3 ul li div {
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+  left: 10%;
+  top: 38%;
+}
+#main .tips1 ul li div h4,
+#main .tips2 ul li div h4,
+#main .tips3 ul li div h4 {
+  font-size: 36px;
+  text-align: center;
+  color: #666;
+  line-height: 47px;
+  margin: 0;
+}
+#main .tips1 ul li div p,
+#main .tips2 ul li div p,
+#main .tips3 ul li div p {
+  margin: 0;
+  font-size: 20px;
+}
+#main .tips1 ul li .two,
+#main .tips2 ul li .two,
+#main .tips3 ul li .two {
+  left: 65%;
+  top: 35%;
+}
+#bottom {
+  background-color: #ff3b56;
+}
+#bottom .bottom {
+  width: 1000px;
+  margin: 0 auto;
+}
+#bottom .bottom img {
+  width: 100%;
+}

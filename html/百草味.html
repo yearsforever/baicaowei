@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--主页面css-->
+    <link rel="stylesheet" type="text/css" href="../css/mainless.css">
+    <!--单页面css-->
+    <link rel="stylesheet" type="text/css" href="../less/css.css">
+    <!--icon css-->
+    <link rel="stylesheet" type="text/css" href="../css/icon/iconfont.css">
+
+</head>
+<body>
+    <div class="all">
+        <header>
+            <div class="logo">
+                <a href="../index.html"><img src="../images/shop/brand.png" alt=""></a></div>
+            <ul>
+                <li>
+                    <a href="#" class="color">企业商城
+                    </a>
+                </li>
+                <li>
+                    <a href="百草味APP.html">百草味APP</a>
+                </li>
+                <li>
+                    <a href="品牌介绍.html">品牌介绍</a>
+                </li>
+                <li>
+                    <a href="关于我们.html">关于我们</a>
+                </li>
+                <li>
+                    <a href="新闻中心.html">新闻中心</a>
+                </li>
+            </ul>
+        </header>
+        <div id="nav">
+            <div class="nav">
+            <ul class="nav_ul">
+                <li class="bgc">
+                    <a href="#" class="color">团购好礼</a>
+                </li>
+                <li>
+                    <a href="#">热卖单品</a>
+                </li>
+                <li>
+                    <a href="#">礼金卡</a>
+                </li>
+                <li>
+                    <a href="#">客服帮助</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div id="main">
+            <img src="../images/shop/1340_02.jpg" alt="">
+            <img src="../images/shop/1340_03.jpg" alt="">
+            <img src="../images/shop/1340_04.jpg" alt="">
+            <img src="../images/shop/1340_05.jpg" alt="">
+            <img src="../images/shop/1340_06.jpg" alt="">
+            <img src="../images/shop/1340_07.jpg" alt="">
+            <img src="../images/shop/1340_08.jpg" alt="">
+            <img src="../images/shop/1340_09.jpg" alt="">
+            <img src="../images/shop/1340_10.jpg" alt="">
+            <img src="../images/shop/1340_11.jpg" alt="">
+            <img src="../images/shop/1340_12.jpg" alt="">
+            <img src="../images/shop/1340_13.jpg" alt="">
+            <img src="../images/shop/1340_14.jpg" alt="">
+            <img src="../images/shop/1340_15.jpg" alt="">
+            <img src="../images/shop/1340_16.jpg" alt="">
+            <img src="../images/shop/1340_17.jpg" alt="">
+        </div>
+        <div id="bottom">
+            <div class="connect"><img src="../images/shop/1340_18_01.jpg" alt="">
+            </div>
+            <div class="bottom_middle">
+                <h4>在线一站式企业采购服务</h4>
+                <p>自主快捷 线上操作 足不出户 完成企业采购</p>
+                <ul>
+                    <li><i class="iconfont icon-qiye"></i>
+                        <a href="#">注册企业账号</a>
+                    </li>
+                    <li><i class="iconfont icon-chanpin"></i>
+                        <a href="#">产品自主选择</a>
+                    </li>
+                    <li><i class="iconfont icon-icon1"></i>
+                        <a href="#">支付贷款</a>
+                    </li>
+                    <li><i class="iconfont icon-cangchu"></i>
+                        <a href="#">仓储配送</a>
+                    </li>
+                    <li><i class="iconfont icon-shiliangzhinengduixiang4"></i>
+                        <a href="#">物流配送</a>
+                    </li>
+                    <li><i class="iconfont icon-1"></i>
+                        <a href="#">售后服务</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">517吃货节</a>
+                </li>
+                <li>
+                    <a href="#">男神来了</a>
+                </li>
+                <li>
+                    <a href="#">小味公益</a>
+                </li>
+                <li>
+                    <a href="#">小味快速达</a>
+                </li>
+                <li>
+                    <a href="#">加入我们</a>
+                </li>
+            </ul>
+            <p class="copyright">©2011-2016 Baicaowei All Rights Reserved. 百草味 杭州郝姆斯食品有限公司版权所有 | 浙ICP备14038051号-1</p>
+        </footer>
+    </div>
+    <!--jq库-->
+    <script src="../js/node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
+<script>
+        
+    $(function(){
+        $(".nav_ul li").on({"mouseenter":function(){
+            $(this).siblings().children().removeClass("color").end().removeClass("bgc").end().addClass("bgc").children().addClass("color");
+        }})
+
+    })
+    
+</script>
