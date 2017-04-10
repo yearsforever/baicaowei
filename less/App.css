@@ -95,7 +95,6 @@
 #main .tips2 ul li div,
 #main .tips3 ul li div {
   display: inline-block;
-  font-weight: bold;
   position: absolute;
   left: 10%;
   top: 38%;
@@ -108,6 +107,7 @@
   color: #666;
   line-height: 47px;
   margin: 0;
+  font-weight: bold;
 }
 #main .tips1 ul li div p,
 #main .tips2 ul li div p,

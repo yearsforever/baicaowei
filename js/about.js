@@ -6,18 +6,23 @@ $(function(){
     $(".card").on(
         {
         "click":function(){
-            // $(".card").each(function(index,ele){
-            //     if($(ele).hasClass("act")){
-            //         $(ele).removeClass("act")
-            //     }
-            // })
-            // $(".tab").each(function(index,ele){
-            //     if($(ele).css("display")=='list-item'){
-            //         $(ele).slideUp();
-            //     }
-            // });
-            $(this).toggleClass("act");
-            var thistab = $(this).nextAll("li").eq(4);
+            var thiscard = this;
+            var thistab = $(thiscard).nextAll("li").eq(4);
+            $(".card").each(function(index,ele){
+                if($(thiscard).hasClass("act")){
+                    return;
+                }else{
+                    $(ele).removeClass("act");
+                }
+            })
+            $(".tab").each(function(index,ele){
+                    if($(thistab).css("display")=='list-item'){
+                        return;
+                    }else{
+                        $(ele).slideUp();
+                    }
+            });
+            $(thiscard).toggleClass("act");
             thistab.slideToggle();
         }
     })
