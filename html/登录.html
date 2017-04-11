@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <!-- Bootstrap -->
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--swiper css库-->
+    <link rel="stylesheet" type="text/css" href="../lib/swiper/swiper-3.4.2.min.css">
+    <!--单页面css-->
+    <link rel="stylesheet" type="text/css" href="../less/login.css">
+<!--     jquery -->
+    <script src="../lib/jquery/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="all">
+        <div class="head">
+            <a href="#"><img src="../images/login/logo.png" alt=""></a>
+        </div>
+        <div class="content">
+            <div class="logo_banner">
+                <div class="inner">
+                    <img src="../images/login/logo.jpg" alt="">
+                    <a href="#"></a>
+                </div>
+                <div class="inner_form">
+                    <div class="zhuce">账号登录</div>
+                    <form action="" method="post" id="form">
+                        <div><span>账号:</span><input type="text" name="userlogin" class="text" placeholder="请输入用户名/邮箱/手机号码"/></div>
+                        <div><span>密码:</span><input type="password" name="userpwd" class="pwd" placeholder="请输入密码"/></div>
+                        <button type="button" class="btn" data-ing="正在登录...">登 录</button>
+                        <button type="button" class="zhu">
+                            <a href="注册.html">免 费 注 册</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+                $(function(){
+        $(".btn").on("click", function(){
+            var para= $("#form").serialize();
+            $.ajax({
+                url:"http://127.0.0.1/baicaowei/php/login.php",
+                type:'post',
+                dataType:'json',
+                data:para,
+                success: function(result){
+                   console.log(result);
+
+                    // 1.表单传值   get(url)/post
+                    // 2. cookie
+                    // window对象
+                    // 本地存储，不会被销毁，直到用户清理，才销毁，存在浏览器里面
+                     // window.localStorage.setItem("cartKey",JSON.stringify(result))
+
+                    // window.location.href='list.html';
+
+                }
+
+            })
+
+        })
+
+    })
+
+    </script>
+</body>
+</html>
