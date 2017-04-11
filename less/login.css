@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 12px/1.125 Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+li {
+  list-style: none;
+}
+fieldset,
+img {
+  border: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+q:before,
+q:after {
+  content: '';
+}
+a:focus,
+input,
+textarea {
+  outline-style: none;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+i,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+legend {
+  color: #000;
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+a {
+  color: #0a8cd2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix {
+  display: block;
+}
+.clear {
+  clear: both;
+  height: 0;
+  font: 0/0 Arial;
+  visibility: hidden;
+}
+.none {
+  display: none;
+}
+.head {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 1000px;
+}
+.head a {
+  display: block;
+}
+.head a img {
+  vertical-align: middle;
+}
+.content .logo_banner {
+  width: 100%;
+  background-color: #afd292;
+}
+.content .logo_banner .inner {
+  position: relative;
+  width: 1190px;
+  margin: 0 auto;
+}
+.content .logo_banner .inner_form {
+  position: absolute;
+  right: 83px;
+  top: 91px;
+  background-color: #fff;
+}
+.content .logo_banner .inner_form .zhuce {
+  font-size: 18px;
+  padding: 20px;
+  line-height: 20px;
+  color: red;
+}
+.content .logo_banner .inner_form #form {
+  width: 300px;
+  height: 240px;
+}
+.content .logo_banner .inner_form #form > div {
+  padding: 10px;
+}
+.content .logo_banner .inner_form #form > div span {
+  font-size: 20px;
+}
+.content .logo_banner .inner_form #form > div input {
+  width: 230px;
+  line-height: 40px;
+  height: 40px;
+  padding: 11px 8px 11px 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #9b9b9b;
+}
+.content .logo_banner .inner_form #form button {
+  width: 280px;
+  height: 42px;
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #69af58;
+  border: none;
+  margin-bottom: 10px;
+}
+.content .logo_banner .inner_form #form button a {
+  color: #000000;
+}
+.content .logo_banner .inner_form #form button a:hover {
+  text-decoration: none;
+}
